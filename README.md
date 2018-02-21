@@ -1,12 +1,11 @@
 # CommentDat
 
-<img src="icon.png" alt="icon" style="width: 150px;"/>
-
+<img src="icon.png" alt="icon" width="150" height="150" />
 
 Sometimes when reading an article I wonder if humanz have commented it somewhere, thus I created this extension to check if the article was submitted on popular websites like **Hacker News** or **Reddit**.
 
 # Copy👉
 
-DWTFPL
+See `LICENSE.txt` for more info.
 
-Icon [link](https://www.flaticon.com/free-icon/chat_134910)
+Icon downloaded from [flaticon.com](https://www.flaticon.com/free-icon/chat_134910)
