@@ -13,7 +13,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     if( request.message === "open_new_tab" ) {
-      chrome.tabs.create({"url": request.url});
+      chrome.tabs.create({"url": 'https://hn.algolia.com/?query=' + request.url});
+      chrome.tabs.create({"url": 'https://www.reddit.com/submit?url=' + request.url});
     }
   }
 );
