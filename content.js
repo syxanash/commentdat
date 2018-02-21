@@ -1,2 +1,3 @@
-alert("Hello from your Chrome extension!");
-console.log("hello world!");
+var firstHref = $("a[href^='http']").eq(0).attr("href");
+
+console.log(firstHref);
