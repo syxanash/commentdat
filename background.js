@@ -15,6 +15,7 @@ chrome.runtime.onMessage.addListener(
     if( request.message === "open_new_tab" ) {
       chrome.tabs.create({"url": 'https://hn.algolia.com/?query=' + request.url});
       chrome.tabs.create({"url": 'https://www.reddit.com/' + request.url});
+      chrome.tabs.create({"url": 'https://twitter.com/search?q=' + request.url});
     }
   }
 );
