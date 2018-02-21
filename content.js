@@ -3,7 +3,7 @@ chrome.runtime.onMessage.addListener(
     if( request.message === "clicked_browser_action" ) {
       var currentUrl = window.location.href;
 
-      console.log('current url: ' + currentUrl);
+      //console.log('current url: ' + currentUrl);
 
       chrome.runtime.sendMessage({"message": "open_new_tab", "url": currentUrl});
     }
