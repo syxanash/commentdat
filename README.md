@@ -10,6 +10,8 @@ Sometimes when reading an article I wonder if humanz have commented it somewhere
 
 Import the extension in `chrome://extensions`, then when you're reading an article click on the extension icon to check if the link has been commented.
 
+![screen](https://i.imgur.com/D6qVncH.gif)
+
 ## Copy👉
 
 See `LICENSE.txt` for more info.
